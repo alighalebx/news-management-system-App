@@ -1,0 +1,2 @@
+#include "EditNews.h"
+

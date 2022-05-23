@@ -1,0 +1,17 @@
+E:\Test\news-management-system\news management system\news management system\x64\Debug\news management system.vcxproj.AssemblyReference.cache
+E:\Test\news-management-system\news management system\news management system\x64\Debug\news management system.vcxproj.SuggestedBindingRedirects.cache
+E:\Test\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.login.resources
+E:\Test\news-management-system\news management system\news management system\x64\Debug\news management system.vcxproj.GenerateResource.cache
+E:\Test\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.AddNews.resources
+D:\project ds\news-management-system\news-management-system\news management system\news management system\x64\Debug\news management system.vcxproj.AssemblyReference.cache
+D:\project ds\news-management-system\news-management-system\news management system\news management system\x64\Debug\news management system.vcxproj.SuggestedBindingRedirects.cache
+D:\project ds\news-management-system\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.AddNews.resources
+D:\project ds\news-management-system\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.login.resources
+D:\project ds\news-management-system\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.Userapp.resources
+D:\project ds\news-management-system\news-management-system\news management system\news management system\x64\Debug\news management system.vcxproj.GenerateResource.cache
+D:\project ds\news-management-system\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.EditNews.resources
+E:\Test\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.EditNews.resources
+E:\Test\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.AdminUi.resources
+E:\Test\news-management-system\news management system\news management system\x64\Debug\news management system.vcxproj.CopyComplete
+E:\Test\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.UI.resources
+E:\Test\news-management-system\news management system\news management system\x64\Debug\newsmanagementsystem.CommentsForm.resources

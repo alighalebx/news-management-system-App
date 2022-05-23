@@ -1,0 +1,7 @@
+﻿  login.cpp
+E:\Test\news-management-system\news management system\news management system\AdminUi.h(815,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\Test\news-management-system\news management system\news management system\AdminUi.h(1106,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Test\news-management-system\news management system\news management system\UI.h(833,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\Test\news-management-system\news management system\news management system\login.cpp(10,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  AddNews.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  news management system.vcxproj -> E:\Test\news-management-system\news management system\x64\Debug\news management system.exe

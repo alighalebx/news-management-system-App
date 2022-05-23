@@ -1,0 +1,97 @@
+  newsmanagementsystem.AddNews.resources - Embedded, ContainedInManifestFile, 
+  newsmanagementsystem.CommentsForm.resources - Embedded, ContainedInManifestFile, 
+  newsmanagementsystem.EditNews.resources - Embedded, ContainedInManifestFile, 
+  newsmanagementsystem.login.resources - Embedded, ContainedInManifestFile, 
+  newsmanagementsystem.AdminUi.resources - Embedded, ContainedInManifestFile, 
+  newsmanagementsystem.UI.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly news management system, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly AlphaBlendTextBox, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class newsmanagementsystem.AddNews: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CustomButton: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ComponentFactory.Krypton.Toolkit.KryptonButton
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 idToDelete : Public
+Class newsmanagementsystem.EditNews: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(News*, System.String, Int32, std.vector<News\,std::allocator<News> >*): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    News* x IsImplicitlyDereferenced : Public
+    std.vector<News\,std::allocator<News> >* New IsImplicitlyDereferenced : Public
+    Int32 val : Public
+    System.String st : Public
+  Methods:
+    intialize(News*): PrivateScope, Public, HideBySig
+    intialize2(vector<News\,std::allocator<News> >*): PrivateScope, Public, HideBySig
+Class newsmanagementsystem.AdminUi: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label NameTxt : Public
+    std.vector<News\,std::allocator<News> >* Anime IsImplicitlyDereferenced : Public
+    std.vector<News\,std::allocator<News> >* Sport IsImplicitlyDereferenced : Public
+    std.vector<News\,std::allocator<News> >* Technology IsImplicitlyDereferenced : Public
+    std.vector<News\,std::allocator<News> >* Business IsImplicitlyDereferenced : Public
+    std.basic_string<char\,std::char_traits<char>\,std::allocator<char> >* SelectedCatg IsImplicitlyDereferenced : Public
+    Int32 globalLoop : Public
+  Methods:
+    NewsloadAnime(vector<News\,std::allocator<News> >*): PrivateScope, Public, HideBySig
+    NewsloadSports(vector<News\,std::allocator<News> >*): PrivateScope, Public, HideBySig
+    NewsloadTechnology(vector<News\,std::allocator<News> >*): PrivateScope, Public, HideBySig
+    NewsloadBusiness(vector<News\,std::allocator<News> >*): PrivateScope, Public, HideBySig
+    initialize(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    display(vector<News\,std::allocator<News> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    funPanel(vector<News\,std::allocator<News> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    fun1(vector<News\,std::allocator<News> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    fun2(vector<News\,std::allocator<News> >* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    ifcatgselected(): PrivateScope, Public, HideBySig
+    ifcatgselectedAdd(): PrivateScope, Public, HideBySig
+    InitializeComponent(): PrivateScope, Public, HideBySig
+    AddBtn_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    loadList(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, vector<News\,std::allocator<News> >*): PrivateScope, Public, HideBySig
+Class CustomCombo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.ComboBox
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 idToDelete1 : Public
+Class newsmanagementsystem.CommentsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(std.deque<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> >\,std::allocator<std::basic_string<char\,std::char_traits<char>\,std::allocator<char> > > >*, user*, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 idobj : Public
+    user* commentui : Public
+  Methods:
+    Initialize(user*): PrivateScope, Public, HideBySig
+Class newsmanagementsystem.UI: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    loadList(list<News\,std::allocator<News> >*): PrivateScope, Public, HideBySig
+Class newsmanagementsystem.login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
