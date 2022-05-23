@@ -918,10 +918,12 @@ namespace newsmanagementsystem {
 
 	private: System::Void CategBtn3_Click(System::Object^ sender, System::EventArgs^ e) {
 		//MessageBox::Show(userui.ShowNewsDep("Technology.txt").size().ToString());
+		ll = "Technology.txt";
 		loadList(userui.ShowNewsDep("Technology.txt"));
 	}
 
 	private: System::Void CategBtn4_Click(System::Object^ sender, System::EventArgs^ e) {
+		ll = "Business.txt";
 		loadList(userui.ShowNewsDep("Business.txt"));
 	}
 	private: System::Void UI_Load(System::Object^ sender, System::EventArgs^ e) {
